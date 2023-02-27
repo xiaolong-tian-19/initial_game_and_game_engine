@@ -1,6 +1,6 @@
 # Initial Game & Game Engine -- Pong Game
 ## Game Image
-![Game Image](/initial_game_and_game_engine/game_image.png)
+![Game Image](/game_image.png)
 ## Program Versions
 - OS Version: (Tested on Cerf22 and Windows 10)
 - Python Version: 3.10.10
