@@ -25,7 +25,7 @@ class View():
 
     def display(self, pong, paddle1, paddle2, pong_color, paddle_color, score):
         self.surface.fill(self.screen_color)
-        pygame.draw.circle(self.surface, pong_color, pong.center, pong.radius)
+        pygame.draw.circle(self.surface, pong_color, (int(pong.center[0]), int(pong.center[1])), pong.radius)
         pygame.draw.rect(self.surface, paddle_color, paddle1.paddle)
         pygame.draw.rect(self.surface, paddle_color, paddle2.paddle)
 
